@@ -44,3 +44,5 @@ for i in range(100):
         print('active thread:', threading.active_count()) # кол-во активных потоков
         print('enumerate:', threading.enumerate()) # кол-во потоков, запущенных в данный момент
         print('thr-1 is alive:', thr.is_alive()) # проверка, работает ли запущенный в данный момент поток
+
+""" Метод join позволяет дождаться выполнения моего потока"""
